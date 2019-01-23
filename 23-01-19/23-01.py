@@ -4,13 +4,14 @@ S=list(s)
 n=len(S)
 t=0
 r=0
-# how many loop we need to go
+# work without this also
+# how many loop we need to go 
+#for i in range(0,n):
+#    t=t+i  
+#    if(t>n):
+#        break
+#    r=r+1
 for i in range(0,n):
-    t=t+i
-    if(t>n):
-        break
-    r=r+1
-for i in range(0,r):
     for j in range(i,-1,-1):
         if(j<len(S)):
             print(S[j],end=" ")
