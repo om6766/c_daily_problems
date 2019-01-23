@@ -2,9 +2,9 @@ import math
 s=str(input())
 S=list(s)
 n=len(S)
-t=0
-r=0
-# work without this also
+#t=0
+#r=0
+# work without this also and if using it then change the range of first loop in range(0,r)
 # how many loop we need to go 
 #for i in range(0,n):
 #    t=t+i  
